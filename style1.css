@@ -1,0 +1,175 @@
+/* Estilo para o cabeçalho */
+header {
+  background-color: #3cb371;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Estilo para as seções */
+section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #666666;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+/* Estilo para os botões */
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #78BE20;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #60A800;
+}
+
+.comprar-btn1 {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.comprar-btn1:hover {
+  background-color: #e64d00;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.depoimentos-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.depoimento {
+  width: calc(33% - 10px);
+  height: 200px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.depoimento img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.depoimento p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.depoimento .nome {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 768px) {
+  .depoimentos-container {
+    display: none;
+  }
+
+  .depoimento-mobile {
+    width: calc(100% - 10px);
+    height: 300px;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .depoimento-mobile {
+    display: none;
+  }
+}
+
